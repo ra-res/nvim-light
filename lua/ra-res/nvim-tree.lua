@@ -108,13 +108,6 @@ local function on_attach(bufnr)
 
 end
 
-vim.g.nvim_tree_show_icons = {
-  git = 0,
-  folders = 0,
-  files = 0,
-  folder_arrows = 0,
-}
-
 nvim_tree.setup {
     on_attach = on_attach
 }

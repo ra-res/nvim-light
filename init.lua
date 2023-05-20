@@ -16,7 +16,7 @@ vim.opt.tabstop=2
 vim.opt.expandtab=true
 vim.opt.showtabline=2
 vim.opt.swapfile=false
-vim.opt.cursorcolumn = true
-vim.opt.cursorline = true
+--vim.opt.cursorcolumn = true
+--vim.opt.cursorline = true
 
 require 'ra-res'
